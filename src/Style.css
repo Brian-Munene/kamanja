@@ -1,52 +1,63 @@
 *{
-  box-sizing: border-box;
-  margin: 20px;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+}
+.Portfolio {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 .Container {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .Container h2{
-  font-size: 42px;
-  padding-top: 20px;
-  color: white;
+    font-size: 42px;
+    padding-top: 20px;
+    color: white;
 }
 
 .Container p {
-  padding: 20px;
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  line-height: 1.2;
+    padding: 20px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    line-height: 1.2;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 .list{
-  padding-top: 0;
-  padding-left: 120px;
-  align-items: left;
-  text-align: left;
-  color:white;
+    padding-top: 0;
+    padding-left: 120px;
+
+    text-align: left;
+    color:white;
 
 }
 .list-items{
-  
+
 }
 .about-text{
-  line-height: 2;
+    line-height: 2;
 }
