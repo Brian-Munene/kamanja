@@ -1,6 +1,7 @@
 import React from 'react';
-import './Style.css';
+import '../styles/Style.css';
 import List from './List';
+
 
 const qualifications = ['Architectural / Architects',
 						 'Structural and Civil Engineers',
@@ -14,13 +15,13 @@ const qualifications = ['Architectural / Architects',
 class Home extends React.Component{
 	render(){
 		return(
-			<div className="Container">
+				<div>
 				<p>
-					Kamanja Team Designs is a consotium of qualified professionals in the areas of:
-				</p>	
-					<List list={qualifications} />
-				
-			</div>
+					Kamanja Team Designs is a consortium of qualified professionals in the areas of:
+				</p>
+					<List list={qualifications}/>
+				<img style={this.props.styles} src = {this.props.images} className = "App-logo" alt = "Astrol"/>
+				</div>
 			);
 	}
 }

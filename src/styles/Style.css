@@ -3,6 +3,16 @@
     margin: 20px;
     padding: 0;
 }
+.navbar{
+
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.navbar a{
+    text-align: center;
+     padding: 14px;
+    text-decoration: none;
+}
 .Portfolio {
     text-align: center;
     background-color: #282c34;
@@ -16,7 +26,6 @@
 }
 .Container {
     text-align: center;
-    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
 import React from 'react'
 import List from './List'
 
-import stmarys from "./images/StMary's.jpeg"
+import stmarys from "../images/StMary\'s.jpeg"
 
 const Social_list = ['Churches', 'Sport facilities and club houses']
 

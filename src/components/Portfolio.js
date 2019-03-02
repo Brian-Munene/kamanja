@@ -1,5 +1,5 @@
 import React from 'react';
-import './Style.css';
+import '../styles/Style.css';
 import {Residential} from './Residentials'
 import {Agricultural} from './Agricultural'
 import {Commercial} from "./Commercial";
@@ -14,6 +14,7 @@ class Portfolio extends React.Component {
         return ( 
             <div className = "Portfolio">
                 <h2> Portfolio</h2>
+                <img style={this.props.styles} src = {this.props.images} className = "App-logo" alt = "stunning_homes"/>
                 <Residential/>
                 <Commercial/>
                 <Industrial/>

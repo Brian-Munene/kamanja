@@ -1,5 +1,5 @@
 import React from 'react';
-import './Style.css';
+import '../styles/Style.css';
 
 
 function List (props){
@@ -8,7 +8,7 @@ function List (props){
 			
 		const Items = listItems.map((listItem) =>
 			<li className="list-items">{listItem}</li>
-			)
+			);
 
 		return(	
 			<ul className="list">{Items}</ul>
