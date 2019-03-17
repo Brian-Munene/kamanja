@@ -7,11 +7,11 @@ class Location extends React.Component{
 		return (
 			<div className='Container'>
 				<h2>Location</h2>
-				<p className="about-text">
-					Kamanja tean Designs is located at Nairobi Central Business District/ City center
-					along Muindi Mbingu Street 200 meters from Nairobi city County headquarters (CITYHALL).
+				<p className="large-text">
+					Kamanja team Designs is located at Nairobi Central Business District/ City center
+					along Muindi Mbingu Street 200 meters from Nairobi city County headquarters (CITY HALL).
 				</p>
-				<img style={this.props.styles} src = {this.props.images} className = "App-logo" alt = "crest_park"/>
+				<img style={this.props.style} src = {crest_park} className = "App-logo" alt = "crest_park"/>
 			</div>
 			);
 	}
