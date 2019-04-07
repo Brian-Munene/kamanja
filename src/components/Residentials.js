@@ -9,13 +9,13 @@ const styles = {
     height: '95%',
     borderRadius: 5,
     overflow: 'hidden',
-    opacity: 0.85
+    opacity: 0.95
 }
 
 export class Residential extends React.Component{
 	render(){
 		return(
-			<div className = "Container">
+			<div className="Container">
                 <h2> Residential Buildings</h2>
                 <List list = {Residential_list} />
                 <img style={styles} src = {town_houses} className = "App-logo" alt = "town_houses"/>

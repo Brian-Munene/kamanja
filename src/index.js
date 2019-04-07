@@ -4,6 +4,12 @@ import './styles/index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WebFont from 'webfontloader';
+WebFont.load({
+    google:{
+        families: ['Titillium Web', 'sans-serif', 'Monoton', 'cursive']
+    }
+})
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

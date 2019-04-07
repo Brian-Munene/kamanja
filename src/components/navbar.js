@@ -1,4 +1,5 @@
 import * as React from "react";
+import '../styles/Style.css';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
@@ -25,7 +26,7 @@ export default class NavigationBar extends React.Component{
         return(
             <Router>
                 <div>
-                <Navbar color="faded" light>
+                <Navbar className="navabar" color="faded" dark>
                     <NavbarBrand href='/' className="mr-auto">Kamanja</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>

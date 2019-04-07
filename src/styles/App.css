@@ -9,13 +9,25 @@
 }
 
 .app-header {
-    margin: 0;
-    padding: 0;
+    background-image: url(../images/RIVER-LAND.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: saturation;
+    margin-bottom: 1%;
     color: black;
     align-items: baseline;
     text-align: -moz-center;
+    min-width: 42em;
+    min-height: 43em;
+    text-align: center;
+}
+
+.app-header h1 {
+    padding-top: 10%;
+    font-family: 'Monoton', cursive;
+    font-size: 58px;
 }
 
 .App-link {
-    color: #61dafb;
+    color: black;
 }

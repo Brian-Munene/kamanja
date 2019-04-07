@@ -1,76 +1,141 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 20px;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Titillium Web', sans-serif;
 }
-.navbar{
 
+.navbar {
     overflow: hidden;
     background-color: darkgrey;
+    opacity: 0.5;
 }
-h3{
+h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+h3 {
     font-size: 32px;
     font-weight: bold;
 }
 
-.navbar a{
+.navbar a {
     text-align: center;
-     padding: 14px;
+    padding: 14px;
     text-decoration: darkgray;
 }
+
 .Portfolio {
-    text-align: center;
-    background-color: white;
+    background-color: cornsilk;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-size: calc(10px + 2vmin);
     color: black;
-}
-.Container {
-    padding: 0em;
-    margin: 0em;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
+    margin: 0%;
 }
 
-.Container h2{
+.About{
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Portfolio h2{
+    font-size: 48px;
+}
+
+.Container {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-color: ghostwhite;
+}
+
+.Container h2 {
     font-size: 42px;
     padding-top: 20px;
     color: black;
+    text-align: center;
+    font-style: italic;
 }
-
-.Container p {
-    background-color: white;
+.Home{
+    display: flex;
+}
+.Home p {
+    background-color: cornsilk;
     font-size: calc(10px + 2vmin);
     color: black;
     line-height: 1.2;
 }
 
+.Home img{
+    flex: 1;
+}
+
 .App-link {
     color: #61dafb;
 }
-.list{
-    padding-top: 0;
-    padding-left: 120px;
 
-    text-align: left;
+.list {
     color: black;
+    list-style: none;
+}
+
+.list-items {
+    margin-top: 2em;
+    text-align: left;
+}
+.menu-list{
+    margin-top: 2em;
+    text-align: center;
 
 }
-.list-items{
-
+.Sidebar{
+    display: flex;
 }
-.large-text{
+
+.Sidebar-list{
+    width: 15%;
+    background: darkslategrey;
+    align-items: center;
+}
+
+.Sidebar-menu{
+    list-style: none;
+}
+
+.current-menu{
+    flex: 1;
+    padding-left: 1%;
+}
+
+.large-text {
     color: #282c34;
     line-height: 2;
     font-size: 26px;
+    padding-top: 4%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    color: black;
+    height: 50vmin;
+    width: 50vmin;
+    border-radius: 5px;
+    overflow: hidden;
+    opacity: 0.85;
+    border-style: dotted;
+    padding: 2%;
 }

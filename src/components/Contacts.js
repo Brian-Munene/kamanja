@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Style.css';
 import final_solid_gate from "../images/final_solid_gate.jpg";
 
-
 export class Contacts extends React.Component
 {
 	render()
@@ -15,7 +14,7 @@ export class Contacts extends React.Component
 					Telephone: 0722783557  and 0722707166<br/>
 					Email Address: kamanjateamdesigns@yahoo.com <br/>
 				</p>
-				 <img style={this.props.style} src = {final_solid_gate} className = "App-logo" alt = "final_solid_gate"/>
+				 <img src = {final_solid_gate} alt = "final_solid_gate"/>
 			</div>
 			);
 	}
