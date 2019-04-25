@@ -13,13 +13,13 @@ const styles = {
 class Location extends React.Component{
 	render() {
 		return (
-			<div className='Container'>
+			<div className='Location'>
 				<h2>Location</h2>
 				<p className="large-text">
 					Kamanja team Designs is located at Nairobi Central Business District/ City center
 					along Muindi Mbingu Street 200 meters from Nairobi city County headquarters (CITY HALL).
 				</p>
-				<img style={styles} src = {crest_park} className = "App-logo" alt = "crest_park"/>
+				<img style={styles} src = {crest_park} alt = "crest_park"/>
 			</div>
 			);
 	}

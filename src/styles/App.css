@@ -13,7 +13,6 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: saturation;
-    margin-bottom: 1%;
     color: black;
     align-items: baseline;
     text-align: -moz-center;
@@ -23,7 +22,7 @@
 }
 
 .app-header h1 {
-    padding-top: 10%;
+    padding-top: 1%;
     font-family: 'Monoton', cursive;
     font-size: 58px;
 }

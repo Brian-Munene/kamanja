@@ -4,7 +4,7 @@ import List from './List';
 import astrol from '../images/Astrol-2017.JPG'
 
 const qualifications = [
-    'Architectural / Architects',
+    'Architects',
     'Structural and Civil Engineers',
     'Mechanical Engineers',
     'Electrical Engineers',
@@ -16,7 +16,7 @@ const styles = {
     color: 'black',
     width: '60%',
     height: '95%',
-
+    borderRadius: '5px',
     overflow: 'hidden',
     paddingLeft: '1%',
     opacity: 0.85
@@ -24,11 +24,11 @@ const styles = {
 export default class Home extends React.Component {
     render() {
         return ( 
-		<div className="Container">
-			 <p className="large-text"> Kamanja Team Designs is a consortium of qualified professionals in the areas of:</p>
+		<div className="Container" style={{backgroundColor: 'ivory'}}>
+            <p className="large-text"> Kamanja Team Designs is a consortium of qualified professionals in the areas of:</p>
             <div className="Home">
 			    <List list={qualifications }/>
-			    <img style = {styles} src={astrol} alt="Astrol"/>
+			    <img style={styles} src={astrol} alt="Astrol"/>
             </div>
 		</div>
         );
