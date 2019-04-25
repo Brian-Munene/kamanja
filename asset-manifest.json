@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccd5deb5.chunk.css",
+    "main.js": "/static/js/main.30e7ff0e.chunk.js",
+    "main.js.map": "/static/js/main.30e7ff0e.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.1e66eaca.chunk.css": "/static/css/2.1e66eaca.chunk.css",
+    "static/js/2.b93e5efb.chunk.js": "/static/js/2.b93e5efb.chunk.js",
+    "static/js/2.b93e5efb.chunk.js.map": "/static/js/2.b93e5efb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.459ba638c9a65af9578131aaaa1f0234.js": "/precache-manifest.459ba638c9a65af9578131aaaa1f0234.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1e66eaca.chunk.css.map": "/static/css/2.1e66eaca.chunk.css.map",
+    "static/css/main.ccd5deb5.chunk.css.map": "/static/css/main.ccd5deb5.chunk.css.map",
+    "static/media/3D-Court-Yard-Front.JPG": "/static/media/3D-Court-Yard-Front.cc97f65c.JPG",
+    "static/media/Astrol-2017.JPG": "/static/media/Astrol-2017.8fc74585.JPG",
+    "static/media/Crest-park.jpg": "/static/media/Crest-park.61cb168c.jpg",
+    "static/media/Godowns.jpg": "/static/media/Godowns.91dc6108.jpg",
+    "static/media/App.css": "/static/media/RIVER-LAND.f0f8c7ae.jpg",
+    "static/media/StMary's.jpeg": "/static/media/StMary's.256b56d7.jpeg",
+    "static/media/final_solid_gate.jpg": "/static/media/final_solid_gate.dc378131.jpg",
+    "static/media/multipurpose-hall.jpg": "/static/media/multipurpose-hall.0ca9e53a.jpg",
+    "static/media/stunning-homes.jpg": "/static/media/stunning-homes.64dd890d.jpg",
+    "static/media/town-houses.bmp": "/static/media/town-houses.31ce17ef.bmp"
+  }
+}
